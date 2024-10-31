@@ -1,0 +1,86 @@
+#pikiz-insert-media {
+  color: #ff7900;
+  background: #fff;
+  border: 1px solid #ff7900;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#pikiz-insert-media span {
+  margin: 0 3px 0 0;
+  padding: 1px 3px;
+  border-radius: 3px;
+  background: #ff7900;
+}
+
+#pikiz-insert-media img {
+  height: 11px;
+}
+
+#pikiz_option_table {
+  width: 100%;
+}
+
+#pikiz_option_table td{
+  width: 50%;
+  vertical-align: top;
+}
+
+#pikiz_option_table code {
+  width: 300px;
+}
+
+#pikiz_option_table pre {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#pikiz-loader-overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 14px;
+  background: rgba(210,210,210,0.6);
+  top: -14px;
+  left: 0px;
+}
+
+#pikiz-dialog-loader {
+  position: absolute;
+  display: block;
+  width: 31px;
+  height: 31px;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+  z-index: 10000000;
+}
+
+.pikiz-admin-page form .form-group {
+  max-width: 375px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pikiz-admin-page form .text-right {
+  text-align: right;
+}
+
+
+.pikiz-admin-page .form-group input.form-control {
+  width: 100%;
+  height: 40px;
+}
+
+.pikiz-admin-page .form-group textarea.form-control {
+  width: 100%;
+}
+
+.pikiz-admin-page .form-group input.form-control label {
+  font-size: 18px;
+}
+
+.hide {
+  display: none;
+}
